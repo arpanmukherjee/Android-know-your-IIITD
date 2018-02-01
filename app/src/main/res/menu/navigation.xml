@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_iiitd"
+        android:title="@string/iiitd"
+        android:icon="@drawable/ic_domain_black_24dp"/>
+
+    <item
+        android:id="@+id/navigation_programs"
+        android:title="@string/programs"
+        android:icon="@drawable/ic_more_horiz_black_24dp"/>
+
+    <item
+        android:id="@+id/navigation_admission"
+        android:title="@string/ug_admission"
+        android:icon="@drawable/ic_plus_one_black_24dp"/>
+
+</menu>

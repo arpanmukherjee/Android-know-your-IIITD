@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/hindi_navigation_iiitd"
+        android:title="@string/hind_iiitd"
+        android:icon="@drawable/ic_domain_black_24dp"/>
+
+    <item
+        android:id="@+id/hindi_navigation_programs"
+        android:title="@string/hind_programs"
+        android:icon="@drawable/ic_more_horiz_black_24dp"/>
+
+    <item
+        android:id="@+id/hindi_navigation_admission"
+        android:title="@string/hind_ug_admission"
+        android:icon="@drawable/ic_plus_one_black_24dp"/>
+
+</menu>
