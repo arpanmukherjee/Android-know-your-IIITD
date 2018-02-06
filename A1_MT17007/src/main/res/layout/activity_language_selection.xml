@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.arpn.assignment1.LanguageSelection_A1_MT17007">
+
+    <Button
+        android:id="@+id/hindiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_marginEnd="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginTop="80dp"
+        android:onClick="onClickHindi"
+        android:text="हिन्दी">
+
+    </Button>
+
+    <Button
+        android:id="@+id/englishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/hindiButton"
+        android:layout_alignBottom="@+id/hindiButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="80dp"
+        android:onClick="onClickEnglish"
+        android:text="English" />
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:src="@drawable/iiitd_full_form"
+           android:layout_marginBottom="40dp"
+           android:layout_below="@+id/englishButton"
+           android:id="@+id/imageView" />
+</RelativeLayout>
